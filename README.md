@@ -12,7 +12,7 @@ Example::
 
 *job_abacus_slim.sh* will be submitted 10 times. `POPE` corresponds to the name
 you use in *job_abacus_slim.sh* on line `#SBATCH -j`. This name should be
-unique (don't use this name for your other jobs) and contains less than 8
+unique (don't use this name for other jobs) and contains less than 8
 characters.
 
 
