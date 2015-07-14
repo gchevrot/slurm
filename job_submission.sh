@@ -30,7 +30,7 @@ else
     sh_name=$2               	# Name of the script that will submit with sbatch (SLURM)
     job_name=$3  		        # Should be unique and not exceed 8 characters!
 
-    # Testing that job_name do not exceed 8 cahracters:
+    # Testing that job_name do not exceed 8 characters:
     maxlen=8
     if (( ${#job_name} > $maxlen )); then
         echo "You are using ${#job_name} characters for the SLURM name. The SLURM name should not exceed $maxlen characters."
